@@ -1,5 +1,6 @@
+import Root from "./components/layout/Root"
 
-import Root from './components/Root'
+
 
 function App() {
   

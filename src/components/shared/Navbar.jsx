@@ -90,13 +90,17 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <button
-          className="hidden md:block bg-white text-black cursor-pointer
+        <Link to={'/login'}>
+          <button
+            className="hidden md:block
+            bg-white text-black cursor-pointer
             hover:bg-slate-400 px-4 py-1 rounded"
-        >
-          {" "}
-          LogIn
-        </button>
+          >
+            LogIn
+          </button>
+        </Link>
+
+      
 
         {/* Mobile Menu Clops */}
 
